@@ -1,0 +1,209 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+html
+{
+ font-size: 62.5%;
+}
+
+body
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.main_manue
+{
+    background-color: #1e272e;
+}
+
+.container
+{
+    background-color: #1e272e;
+    height:55px ;
+    width: 100%;
+}
+
+.navbar
+{
+    background-color: #1e272e; 
+   cursor: pointer;
+   font-size: 2 rem;
+   height: 55px;
+}
+.navbar a
+{
+    color: aliceblue;
+   
+
+}
+#nav2
+{
+    color: aliceblue;
+}
+
+#nav3
+{
+    color: aliceblue;
+}
+
+#nav4
+{
+    color: aliceblue;
+}
+
+.navbar li
+{
+    margin-right: 2.5rem;
+}
+
+.main_header_left
+{
+    height: 70 rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main_header_left p{
+    font-size: 2.5rem;
+}
+
+
+.main_header_left h2{
+    font-size: 3.5rem;
+    margin: 1rem 0 4rem 0;
+    
+}
+
+ .text
+{
+    color: rgb(63, 169, 169);
+    font-size: 4rem;
+}
+
+.btn
+{
+  height: 40px;
+  width: 140px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+}
+.main_header_right
+{
+    margin-top: 100px;
+    height: 70 rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+img
+{
+    height: 400px;
+    width: 550px;
+}
+
+footer
+{
+    height: 50px;
+    width: 100%;
+    background-color: #1e272e;
+    margin-top: auto;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+footer p{
+    
+    color: aliceblue;
+    font-size: 2rem;
+}
+
+/* figure img
+{
+   border: none;
+   outline: none;
+   opacity: o.5;
+    background-size: cover;
+} */
+
+.input_buttons
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.myinput input
+{
+    height: 40px;
+    width: 440px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    cursor: pointer;
+    color: aliceblue;
+    background-color: #9199a0;
+    font-size: 2rem;
+    font-weight: 600;
+    
+    
+    
+}
+
+.btns button
+{
+  margin: 20px;
+    height: 40px;
+    width: 90px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: #009ad8;
+    color: aliceblue;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.contain
+{
+    height: 200px;
+    width: 340px;
+    background-color: #9199a0;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.para
+{
+    color: aliceblue;
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+.para2
+{
+    color: aliceblue;
+    font-size: 2.3rem;
+    font-weight: 700;  
+}
